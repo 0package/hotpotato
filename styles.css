@@ -3,6 +3,7 @@
     --crimson: rgb(184, 15, 10);
     --silk-black: rgb(8, 6, 6);
     --white: #ffffff;
+    --brand-green: #00E526;
     --light-gray: #f0f0f0;
     --medium-gray: #888888;
     --dark-gray: #333333;
@@ -96,8 +97,9 @@ header .container {
 .logo {
     font-size: 28px;
     font-weight: 700;
-    color: var(--white);
+    color: var(--brand-green);
     letter-spacing: 2px;
+    text-shadow: 0 0 10px rgba(0, 229, 38, 0.3);
 }
 
 .nav-menu {
@@ -448,6 +450,10 @@ footer {
     width: 30px;
     height: 2px;
     background-color: var(--crimson);
+}
+
+.brand-name {
+    color: var(--brand-green);
 }
 
 .social-links {
