@@ -1,9 +1,251 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>hotpotato</title>
-  </head>
-  <body>
-    <p>hot potato!</p>
-  </body>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crimson Blog</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="circle"></div>
+    
+    <header>
+        <div class="container">
+            <h1 class="logo">Crimson Blog</h1>
+            <nav>
+                <div class="menu-toggle">
+                    <i class="fas fa-bars"></i>
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="#" class="active">Home</a></li>
+                    <li><a href="#">Articles</a></li>
+                    <li><a href="#">Categories</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="featured-post">
+            <article class="post">
+                <div class="post-image">
+                    <div class="post-placeholder"></div>
+                </div>
+                <div class="post-content">
+                    <h2 class="post-title">Getting Started with Web Development</h2>
+                    <div class="post-meta">
+                        <span class="post-date">May 20, 2023</span>
+                        <span class="post-author">by John Doe</span>
+                    </div>
+                    <p class="post-excerpt">
+                        Web development is an exciting field that combines creativity with technical skills. In this article, we'll explore the fundamentals of HTML, CSS, and JavaScript.
+                    </p>
+                    <a href="#" class="read-more">Read More</a>
+                </div>
+            </article>
+        </section>
+
+        <div class="content-wrapper">
+            <section class="posts">
+                <h2 class="section-title">Latest Articles</h2>
+                
+                <div class="post-grid">
+                    <article class="post-card">
+                        <div class="post-card-image">
+                            <div class="post-placeholder"></div>
+                        </div>
+                        <div class="post-card-content">
+                            <h3 class="post-card-title">CSS Flexbox Layout Guide</h3>
+                            <div class="post-card-meta">
+                                <span class="post-card-date">April 15, 2023</span>
+                            </div>
+                            <p class="post-card-excerpt">
+                                Learn how to create responsive layouts with CSS Flexbox, a powerful tool for modern web design.
+                            </p>
+                            <a href="#" class="read-more">Read More</a>
+                        </div>
+                    </article>
+
+                    <article class="post-card">
+                        <div class="post-card-image">
+                            <div class="post-placeholder"></div>
+                        </div>
+                        <div class="post-card-content">
+                            <h3 class="post-card-title">JavaScript Fundamentals</h3>
+                            <div class="post-card-meta">
+                                <span class="post-card-date">March 28, 2023</span>
+                            </div>
+                            <p class="post-card-excerpt">
+                                Explore the core concepts of JavaScript that every web developer should know.
+                            </p>
+                            <a href="#" class="read-more">Read More</a>
+                        </div>
+                    </article>
+
+                    <article class="post-card">
+                        <div class="post-card-image">
+                            <div class="post-placeholder"></div>
+                        </div>
+                        <div class="post-card-content">
+                            <h3 class="post-card-title">Responsive Web Design Tips</h3>
+                            <div class="post-card-meta">
+                                <span class="post-card-date">March 10, 2023</span>
+                            </div>
+                            <p class="post-card-excerpt">
+                                Discover practical techniques for creating websites that look great on all devices.
+                            </p>
+                            <a href="#" class="read-more">Read More</a>
+                        </div>
+                    </article>
+
+                    <article class="post-card">
+                        <div class="post-card-image">
+                            <div class="post-placeholder"></div>
+                        </div>
+                        <div class="post-card-content">
+                            <h3 class="post-card-title">Web Accessibility Guide</h3>
+                            <div class="post-card-meta">
+                                <span class="post-card-date">February 22, 2023</span>
+                            </div>
+                            <p class="post-card-excerpt">
+                                Learn how to make your websites accessible to all users, including those with disabilities.
+                            </p>
+                            <a href="#" class="read-more">Read More</a>
+                        </div>
+                    </article>
+
+                    <article class="post-card">
+                        <div class="post-card-image">
+                            <div class="post-placeholder"></div>
+                        </div>
+                        <div class="post-card-content">
+                            <h3 class="post-card-title">CSS Grid Layout Tutorial</h3>
+                            <div class="post-card-meta">
+                                <span class="post-card-date">February 5, 2023</span>
+                            </div>
+                            <p class="post-card-excerpt">
+                                Master CSS Grid Layout to create complex two-dimensional layouts with ease.
+                            </p>
+                            <a href="#" class="read-more">Read More</a>
+                        </div>
+                    </article>
+
+                    <article class="post-card">
+                        <div class="post-card-image">
+                            <div class="post-placeholder"></div>
+                        </div>
+                        <div class="post-card-content">
+                            <h3 class="post-card-title">Modern JavaScript Features</h3>
+                            <div class="post-card-meta">
+                                <span class="post-card-date">January 18, 2023</span>
+                            </div>
+                            <p class="post-card-excerpt">
+                                Explore the latest JavaScript features that make coding more efficient and enjoyable.
+                            </p>
+                            <a href="#" class="read-more">Read More</a>
+                        </div>
+                    </article>
+                </div>
+
+                <div class="pagination">
+                    <a href="#" class="page-link active">1</a>
+                    <a href="#" class="page-link">2</a>
+                    <a href="#" class="page-link">3</a>
+                    <a href="#" class="page-link next">Next <i class="fas fa-chevron-right"></i></a>
+                </div>
+            </section>
+
+            <aside class="sidebar">
+                <div class="sidebar-widget">
+                    <h3 class="widget-title">About</h3>
+                    <p>Crimson Blog is a platform dedicated to sharing knowledge about web development, design, and programming.</p>
+                </div>
+
+                <div class="sidebar-widget">
+                    <h3 class="widget-title">Categories</h3>
+                    <ul class="category-list">
+                        <li><a href="#">HTML & CSS <span>(12)</span></a></li>
+                        <li><a href="#">JavaScript <span>(8)</span></a></li>
+                        <li><a href="#">Web Design <span>(6)</span></a></li>
+                        <li><a href="#">Accessibility <span>(4)</span></a></li>
+                        <li><a href="#">Performance <span>(5)</span></a></li>
+                    </ul>
+                </div>
+
+                <div class="sidebar-widget">
+                    <h3 class="widget-title">Popular Posts</h3>
+                    <ul class="popular-posts">
+                        <li>
+                            <a href="#">
+                                <h4>Getting Started with Web Development</h4>
+                                <span class="post-date">May 20, 2023</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <h4>CSS Flexbox Layout Guide</h4>
+                                <span class="post-date">April 15, 2023</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <h4>JavaScript Fundamentals</h4>
+                                <span class="post-date">March 28, 2023</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="sidebar-widget">
+                    <h3 class="widget-title">Subscribe</h3>
+                    <p>Stay updated with our latest articles.</p>
+                    <form class="subscribe-form">
+                        <input type="email" placeholder="Your email address" required>
+                        <button type="submit" class="btn">Subscribe</button>
+                    </form>
+                </div>
+            </aside>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3 class="footer-title">Crimson Blog</h3>
+                    <p>A blog about web development, design, and programming.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h3 class="footer-title">Quick Links</h3>
+                    <ul class="footer-links">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Articles</a></li>
+                        <li><a href="#">Categories</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3 class="footer-title">Contact</h3>
+                    <p><i class="fas fa-envelope"></i> info@crimsonblog.com</p>
+                    <p><i class="fas fa-phone"></i> +1 (555) 123-4567</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 Crimson Blog. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
 </html>
