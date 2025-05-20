@@ -59,7 +59,7 @@ document.addEventListener('DOMContentLoaded', function() {
     // Add placeholder text to post placeholders
     const postPlaceholders = document.querySelectorAll('.post-placeholder');
     postPlaceholders.forEach(placeholder => {
-        placeholder.textContent = 'Crimson Blog';
+        placeholder.textContent = 'HOTPOTATO';
     });
     
     // Animate elements on scroll
