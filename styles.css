@@ -176,6 +176,7 @@ main {
 }
 
 .post-image {
+    height: 100%;
     flex: 0 0 40%;
 }
 
@@ -186,9 +187,9 @@ main {
     display: flex;
     align-items: center;
     justify-content: center;
-    /*color: var(--crimson);
+    color: var(--crimson);
     font-size: 18px;
-    font-weight: 600;*/
+    font-weight: 600;
 }
 
 .post-content {
