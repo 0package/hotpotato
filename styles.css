@@ -176,8 +176,7 @@ main {
 }
 
 .post-image {
-    height: 100%;
-    flex: 0 0 50%;
+    flex: 0 0 100%;
 }
 
 .post-placeholder {
